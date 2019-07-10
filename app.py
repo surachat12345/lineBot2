@@ -29,12 +29,7 @@ def callback():
         sendText(user('เออ! บาย')
     else :
         sendText(user('ไม่เข้าใจว่ะ')
-   sendText(user('เออ! ดี')
-    elif (userText == 'ไป ล่ะ') :
-       sendText(user('เออ! บาย')
-    else :
-        sendText(user('ไม่เข้าใจว่ะ')
-
+   
     return '',200
 
 def sendText(user, text):

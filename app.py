@@ -20,7 +20,7 @@ def callback():
     json_line = request.get_json()
     json_line = json.dumps(json_line)
     decoded = json.loads(json_line)
-    user = decoded["events"][0]['replyToken']
+    decoded['originaldetectintentrequest']['
     userText = decoded["events"][0]['message']['text']
    # sendText(user return '',200userText
     if (userText == 'สวัสดี') :

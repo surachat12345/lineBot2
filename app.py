@@ -22,12 +22,14 @@ def callback():
     decoded = json.loads(json_line)
     decoded['originaldetectintentrequest']['
     userText = decoded["events"][0]['message']['text']
-   # sendText(user return '',200userText
     if (userText == 'สวัสดี') :
-       sendText(user,'เออ! ดี')
+        sendText(user,'เออ! ดี')
     elif (userText == 'ไป ล่ะ') :
         sendText(user'เออ! บาย')
+    elif:  
+        sendText(user,'ว่าอะไรครับ')                                     
     return '',200
+    
         
    
   

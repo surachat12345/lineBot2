@@ -33,7 +33,6 @@ def callback():
     
         
    
-  
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
